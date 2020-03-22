@@ -1,8 +1,12 @@
+PImage imageTest;
+
 Scene scene = new Scene(); // シーン
 Vec eye = new Vec(0,0,4); // 視点
 
 void setup(){
   size(256,256);
+    // 画像を読み込む
+  imageTest = loadImage("images/icon.png");
   initScene();
 }
 
@@ -22,15 +26,30 @@ void draw(){
 // シーン構築
 void initScene(){
   // 球
-  Material mtlSpehre = new Material(new Spectrum(0.9,0.5,0.1));
-  mtlSpehre.reflective = 0.6;
-  scene.addIntersectable(new Sphere(new Vec(0,0,0),1,mtlSpehre));
+  Material mtlSphere = new Material(new Spectrum(0.1,0.5,0.9));
+  mtlSphere.refractive = 0.9;
+  mtlSphere.refractiveIndex = 1.5;
+  scene.addIntersectable(new Sphere(new Vec(0,0,0),1,mtlSphere));
 
   // チェック柄の床
   Material mtlFloor1 = new Material(new Spectrum(0.5,0.5,0.5));
   Material mtlFloor2 = new Material(new Spectrum(0.2,0.2,0.2));
   scene.addIntersectable(new CheckedObj(new Plane(new Vec(0,-1,0),new Vec(0,1,0),mtlFloor1),1,mtlFloor2));
 
+  // 壁
+  Material mtlWall1 = new Material(new Spectrum(0.5, 0.5, 0.5));
+  scene.addIntersectable(new TexturedObj(
+    new Plane(
+      new Vec(0, 0, -5), // 位置
+      new Vec(0, 0, 1), // 法線
+      mtlWall1 // 材質1
+    ),
+    imageTest, // 画像
+    10, // テクスチャの大きさ
+    new Vec(-5, -5, 0), // テクスチャ原点
+    new Vec(1, 0, 0), // テクスチャu方向
+    new Vec(0, 1, 0) // テクスチャv方向
+  ));
 
   // 点光源
   scene.addLight(new Light(new Vec(100,100,100),new Spectrum(800000,800000,800000)));

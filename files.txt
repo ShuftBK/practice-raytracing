@@ -34,7 +34,7 @@
 │       ├── [Mar 20 09:26]  Sphere.pde
 │       ├── [Mar 17 02:20]  Vec.pde
 │       └── [Mar 20 11:48]  sketch_3_5.pde
-├── [Mar 21 18:04]  4
+├── [Mar 22 23:07]  4
 │   ├── [Mar 21 14:55]  sketch_4_2
 │   │   ├── [Mar 21 14:47]  Intersectable.pde
 │   │   ├── [Mar 21 14:47]  Intersection.pde
@@ -60,7 +60,7 @@
 │   │   ├── [Mar 21 15:00]  Sphere.pde
 │   │   ├── [Mar 21 15:03]  Vec.pde
 │   │   └── [Mar 21 16:19]  sketch_4_3.pde
-│   └── [Mar 22 03:59]  sketch_4_4
+│   └── [Mar 22 23:06]  sketch_4_4
 │       ├── [Mar 21 18:04]  CheckedObj.pde
 │       ├── [Mar 21 18:04]  Intersectable.pde
 │       ├── [Mar 21 18:04]  Intersection.pde
@@ -68,14 +68,16 @@
 │       ├── [Mar 21 18:08]  Material.pde
 │       ├── [Mar 21 18:04]  Plane.pde
 │       ├── [Mar 21 18:04]  Ray.pde
-│       ├── [Mar 21 18:38]  Scene.pde
+│       ├── [Mar 22 23:04]  Scene.pde
 │       ├── [Mar 21 18:04]  Spectrum.pde
 │       ├── [Mar 21 18:04]  Sphere.pde
-│       ├── [Mar 21 18:12]  Vec.pde
-│       ├── [Mar 22 04:02]  images
-│       │   └── [Mar 22 04:02]  icon.png
-│       └── [Mar 21 18:37]  sketch_4_4.pde
-├── [Mar 22 21:29]  files.txt
-└── [Mar 21 15:12]  readme.md
+│       ├── [Mar 22 22:56]  TexturedObj.pde
+│       ├── [Mar 22 22:58]  Vec.pde
+│       ├── [Mar 22 22:51]  images
+│       │   ├── [Mar 22 04:02]  icon.png
+│       │   └── [Mar 22 22:51]  neko.png
+│       └── [Mar 22 23:06]  sketch_4_4.pde
+├── [Mar 22 23:07]  files.txt
+└── [Mar 22 21:31]  readme.md
 
-17 directories, 61 files
+17 directories, 63 files

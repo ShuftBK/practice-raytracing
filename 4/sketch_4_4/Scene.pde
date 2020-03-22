@@ -43,8 +43,16 @@ class Scene{
         l = l.add(c.scale(ks).mul(m.diffuse)); // 計算結果に鏡面反射成分を足す
       }
 
+      // 屈折成分
+      float kt = m.refractive;
+      if (0 < kt) {
+        Vec r = ray.dir.refract(isect.n, VACUUM_REFRACTIVE_INDEX / m.refractiveIndex); // 屈折レイを導出
+        Spectrum c = trace(new Ray(isect.p, r), depth + 1); // 屈折レイを飛ばす
+        l = l.add(c.scale(kt).mul(m.diffuse)); // 計算結果に屈折成分を足す
+      }
+
       // 拡散反射成分
-      float kd = 1.0 - ks;
+      float kd = 1.0 - ks - kt;
       if (0 < kd){
         Spectrum c = this.lighting(isect.p,isect.n,isect.material); // 拡散反射面の光源計算を行う
         l = l.add(c.scale(kd)); // 計算結果に拡散反射成分を足す

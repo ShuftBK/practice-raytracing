@@ -49,14 +49,15 @@ class Vec{
     return this.sub(n.scale(2 * this.dot(n)));
   }
 
-  Vec refract(Vec n,float eta){
-    float dot = this.dot(n); // レイと法線の内積
+  // 屈折
+  Vec refract(Vec n, float eta) {
+    float dot = this.dot(n);
     float d = 1.0 - sq(eta) * (1.0 - sq(dot));
-    if (0 < d){
+    if (0 < d) {
       Vec a = this.sub(n.scale(dot)).scale(eta);
       Vec b = n.scale(sqrt(d));
       return a.sub(b);
     }
-    return this.reflect(n);
+    return this.reflect(n); // 全反射
   }
 }
