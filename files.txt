@@ -1,0 +1,81 @@
+.
+├── [Mar 12 08:01]  1
+│   ├── [Mar 12 07:53]  sketch_1_3
+│   │   └── [Mar 12 07:53]  sketch_1_3.pde
+│   ├── [Mar 12 07:56]  sketch_1_4
+│   │   └── [Mar 12 07:56]  sketch_1_4.pde
+│   └── [Mar 12 08:01]  sketch_1_5
+│       └── [Mar 12 08:01]  sketch_1_5.pde
+├── [Mar 15 03:52]  2
+│   ├── [Mar 14 06:43]  sketch_2_3
+│   │   └── [Mar 14 06:43]  sketch_2_3.pde
+│   ├── [Mar 15 03:51]  sketch_2_4
+│   │   └── [Mar 15 03:51]  sketch_2_4.pde
+│   └── [Mar 15 04:39]  sketch_2_5
+│       ├── [Mar 15 03:52]  Vec.pde
+│       └── [Mar 15 04:39]  sketch_2_5.pde
+├── [Mar 20 11:42]  3
+│   ├── [Mar 16 03:32]  sketch_3_3
+│   │   ├── [Mar 15 04:46]  Vec.pde
+│   │   └── [Mar 16 03:32]  sketch_3_3.pde
+│   ├── [Mar 17 02:17]  sketch_3_4
+│   │   ├── [Mar 17 02:17]  Spectrum.pde
+│   │   ├── [Mar 16 11:13]  Vec.pde
+│   │   └── [Mar 17 02:15]  sketch_3_4.pde
+│   └── [Mar 20 11:48]  sketch_3_5
+│       ├── [Mar 20 09:18]  Intersectable.pde
+│       ├── [Mar 20 11:42]  Intersection.pde
+│       ├── [Mar 20 08:48]  Light.pde
+│       ├── [Mar 20 08:47]  Material.pde
+│       ├── [Mar 20 11:02]  Plane.pde
+│       ├── [Mar 18 06:26]  Ray.pde
+│       ├── [Mar 20 11:45]  Scene.pde
+│       ├── [Mar 17 02:20]  Spectrum.pde
+│       ├── [Mar 20 09:26]  Sphere.pde
+│       ├── [Mar 17 02:20]  Vec.pde
+│       └── [Mar 20 11:48]  sketch_3_5.pde
+├── [Mar 21 18:04]  4
+│   ├── [Mar 21 14:55]  sketch_4_2
+│   │   ├── [Mar 21 14:47]  Intersectable.pde
+│   │   ├── [Mar 21 14:47]  Intersection.pde
+│   │   ├── [Mar 21 14:47]  Light.pde
+│   │   ├── [Mar 21 14:47]  Material.pde
+│   │   ├── [Mar 21 14:47]  Plane.pde
+│   │   ├── [Mar 21 14:58]  Ray.pde
+│   │   ├── [Mar 21 14:55]  Scene.pde
+│   │   ├── [Mar 21 14:47]  Spectrum.pde
+│   │   ├── [Mar 21 14:47]  Sphere.pde
+│   │   ├── [Mar 21 14:47]  Vec.pde
+│   │   └── [Mar 21 14:55]  sketch_4_2.pde
+│   ├── [Mar 21 16:18]  sketch_4_3
+│   │   ├── [Mar 21 16:09]  CheckedObj.pde
+│   │   ├── [Mar 21 15:00]  Intersectable.pde
+│   │   ├── [Mar 21 15:00]  Intersection.pde
+│   │   ├── [Mar 21 15:00]  Light.pde
+│   │   ├── [Mar 21 15:51]  Material.pde
+│   │   ├── [Mar 21 15:00]  Plane.pde
+│   │   ├── [Mar 21 15:00]  Ray.pde
+│   │   ├── [Mar 21 16:18]  Scene.pde
+│   │   ├── [Mar 21 15:00]  Spectrum.pde
+│   │   ├── [Mar 21 15:00]  Sphere.pde
+│   │   ├── [Mar 21 15:03]  Vec.pde
+│   │   └── [Mar 21 16:19]  sketch_4_3.pde
+│   └── [Mar 22 03:59]  sketch_4_4
+│       ├── [Mar 21 18:04]  CheckedObj.pde
+│       ├── [Mar 21 18:04]  Intersectable.pde
+│       ├── [Mar 21 18:04]  Intersection.pde
+│       ├── [Mar 21 18:04]  Light.pde
+│       ├── [Mar 21 18:08]  Material.pde
+│       ├── [Mar 21 18:04]  Plane.pde
+│       ├── [Mar 21 18:04]  Ray.pde
+│       ├── [Mar 21 18:38]  Scene.pde
+│       ├── [Mar 21 18:04]  Spectrum.pde
+│       ├── [Mar 21 18:04]  Sphere.pde
+│       ├── [Mar 21 18:12]  Vec.pde
+│       ├── [Mar 22 04:02]  images
+│       │   └── [Mar 22 04:02]  icon.png
+│       └── [Mar 21 18:37]  sketch_4_4.pde
+├── [Mar 22 21:29]  files.txt
+└── [Mar 21 15:12]  readme.md
+
+17 directories, 61 files
