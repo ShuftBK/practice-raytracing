@@ -32,10 +32,6 @@ void initScene(){
   scene.addIntersectable(new Sphere(new Vec(   0,0,0),1,new Material(new Spectrum(0.9,0.7,0.3))));
   scene.addIntersectable(new Sphere(new Vec( 2.2,0,0),1,new Material(new Spectrum(0.3,0.9,0.7))));
 
-  // 無限平面
-  // Material mtlFloor = new Material(new Spectrum(0.9,0.9,0.9));
-  // scene.addIntersectable(new Plane(new Vec(0,-1,0),new Vec(0,1,0),mtlFloor));
-
   // チェック柄の床
   Material mtlFloor1 = new Material(new Spectrum(0.5,0.5,0.5));
   Material mtlFloor2 = new Material(new Spectrum(0.2,0.2,0.2));
@@ -57,14 +53,6 @@ void initCamera(){
 
 // 一次レイを計算
 Ray calcPrimaryRay(int x,int y){
-  // float imagePlane = height;
-  
-  // float dx = x + random(0.0,1.0) - width / 2;
-  // float dy = -(y + random(0.0,1.0) - height / 2);
-  // float dz = -imagePlane;
-  
-  // return new Ray(eye, new Vec(dx, dy, dz).normalize());
-
   // カメラを用いて一次レイを求める
   return camera.ray(
     x + random(-0.5,0.5),
