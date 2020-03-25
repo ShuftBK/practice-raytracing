@@ -4,10 +4,10 @@ Scene scene = new Scene(); // シーン
 Vec eye = new Vec(0,0,7); // 視点
 
 // サンプル数
-final int SAMPLES = 100;
+final int SAMPLES = 10000;
 
 void setup(){
-  size(256,256);
+  size(512,512);
   initScene();
   initCamera();
 }

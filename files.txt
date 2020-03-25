@@ -139,8 +139,10 @@
 │       ├── [Mar 24 17:59]  Scene.pde
 │       ├── [Mar 24 17:40]  Spectrum.pde
 │       ├── [Mar 24 17:40]  Vec.pde
-│       └── [Mar 24 18:07]  sketch_6_4.pde
-├── [Mar 24 20:47]  files.txt
-└── [Mar 24 20:46]  readme.md
+│       └── [Mar 24 20:55]  sketch_6_4.pde
+├── [Mar 25 15:34]  files.txt
+├── [Mar 25 15:30]  images
+│   └── [Mar 25 15:30]  ss_sketch_6_4.png
+└── [Mar 25 15:33]  readme.md
 
-26 directories, 117 files
+27 directories, 118 files
